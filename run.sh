@@ -1,0 +1,1 @@
+#!/bin/bashpydir='/home/zuning.duan/model/d03_xgboost/src'data='/home/zuning.duan/model/do03_xgboost/data'#python ${pydir}/main.py -task grid -best_model aaa#python ${pydir}/main.py -task train - estimator gridsearch.pklpython ${pydir}/main.py -task pred -pred_model best_model.pkl -dpath ${data}/cnn_data.csv
